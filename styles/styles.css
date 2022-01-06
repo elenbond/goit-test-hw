@@ -1,0 +1,30 @@
+/* .box::before {
+    content: 'Это текст в ::before';
+    content: '';
+    font-size: 40px;
+    color: orange;
+}
+  
+.box::after {
+    content: 'Это текст в ::after';
+    font-size: 30px;
+    color: teal;
+}
+  /* Применить стили к псевдоэлементу .box::before при ховере по элементу .box */
+.box:hover::before {
+  content: '';
+  color: green;
+}
+
+/* Применить стили к псевдоэлементу .box::after при ховере по элементу .box */
+.box:hover::after {
+  color: tomato;
+} */
+body {
+  background-image: linear-gradient(
+    to right,
+    #f44336 15%,
+    #09792b 40%,
+    #00b9ff 65%,
+    #ffb800);
+}

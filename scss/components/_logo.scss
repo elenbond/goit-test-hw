@@ -1,0 +1,14 @@
+.logo {
+    font-family: "Raleway";
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    margin-right: 95px;
+    color: getColor('accent');
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    &__text {
+        color: getColor('third-text');
+      }
+}
