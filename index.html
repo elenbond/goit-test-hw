@@ -69,7 +69,7 @@
               <p class="modal__title">Оставьте свои данные, мы вам перезвоним</p>
               <form name="signup_form" autocomplete="on" novalidate class="modal__form">
                 <label type="text" for="user-name" class="modal__label">Имя
-                  <div class="modal__fill">
+                  <div class="modal__fill" id="user-name">
                     <input type="text" name="user-name" id="user-name" class="modal__input"/>
                     <svg class="modal__icon" width="12" height="12">
                       <use href="./images/icons.svg#icon-person-black"></use>
@@ -86,7 +86,7 @@
                 </label>
                 <label type="text" for="email" class="modal__label">Почта
                   <div class="modal__fill" id="email">
-                    <input type="email" name="email" class="modal__input"/>
+                    <input type="email" name="email" id="email" class="modal__input"/>
                     <svg class="modal__icon" width="16" height="15">
                       <use href="./images/icons.svg#icon-email-black"></use>
                     </svg>
@@ -195,7 +195,6 @@
       <!--Team-->
       <section class="section teams">
         <div class="container">
-          <!-- section-title -- section__heading -->
           <h2 class="section-title">Наша команда</h2> 
           <ul class="team">
             <li class="team__item">
